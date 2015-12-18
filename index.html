@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SpendWell</title>
+
+  <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'> -->
+  <link href='/css/mui.min.css' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+
+      font-family: Roboto, sans-serif;
+      background-color: #32623e;
+    }
+    section {
+      position: absolute;
+      top: calc(50% - 38px);
+      left: calc(50% - 200px);
+      width: 400px;
+      height: 76px;
+    }
+    img {
+      width: 100%;
+    }
+
+    form {
+      position: absolute;
+      bottom: 20px;
+      left: calc(50% - 200px);
+      width: 400px;
+    }
+    .mui-textfield--float-label>label {
+      transition: 0.15s ease-out;
+      color: hsl(0, 0%, 90%);
+    }
+    .mui-textfield>input {
+      width: 229px;
+      margin-right: 10px;
+      border-color: hsl(0, 0%, 90%);
+    }
+    .mui-textfield>input:focus {
+      border-color: hsl(0, 0%, 90%);
+    }
+    .mui-textfield>input:focus~label {
+      color: hsl(0, 0%, 90%);
+    }
+    .mui-btn,
+    .mui-btn:hover {
+      background-color: #32623e;
+      color: hsl(0, 0%, 90%);
+    }
+  </style>
+</head>
+<body>
+
+  <section>
+    <img src="/img/logo-white.svg">
+  </section>
+
+  <form
+    action="//spendwell.us12.list-manage.com/subscribe/post?u=f06a44d9caea5e9890f52c259&id=edd6ea8786"
+    method="post"
+    class="mui-form--inline"
+    novalidate
+  >
+    <div class="mui-textfield mui-textfield--float-label">
+      <input type="email" value="" name="EMAIL" id="email">
+      <label for="email">Email</label>
+    </div>
+    <button type="submit" name="subscribe" class="mui-btn">Get Notified</button>
+  </form>
+
+</body>
+</html>
